@@ -1,241 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Perch Home - Home dashboard for iPad</title>
-  <link rel="icon" href="assets/icon.png" />
-  <link rel="apple-touch-icon" href="assets/icon.png" />
-  <style>
-    :root {
-      color-scheme: light;
-      --background: #f8faf8;
-      --surface: #ffffff;
-      --text: #17211d;
-      --muted: #5c6962;
-      --border: #d9e2dd;
-      --accent: #28705b;
-      --accent-dark: #1f5747;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      color: var(--text);
-      background: var(--background);
-      line-height: 1.7;
-    }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: var(--accent-dark);
-      text-decoration: underline;
-    }
-
-    .page {
-      width: min(760px, 100%);
-      margin: 0 auto;
-      padding: 28px 24px 56px;
-    }
-
-    header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-      padding: 4px 0 52px;
-    }
-
-    .brand {
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      font-weight: 700;
-      color: var(--text);
-    }
-
-    .brand img {
-      width: 40px;
-      height: 40px;
-      border-radius: 8px;
-    }
-
-    nav {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      font-size: 0.95rem;
-    }
-
-    nav a {
-      display: inline-flex;
-      align-items: center;
-      min-height: 28px;
-      border-bottom: 2px solid transparent;
-    }
-
-    nav a[aria-current="page"] {
-      color: var(--text);
-      border-bottom-color: var(--accent);
-    }
-
-    main {
-      display: grid;
-      gap: 34px;
-      padding: 34px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: var(--surface);
-    }
-
-    .hero {
-      max-width: 620px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(2rem, 6vw, 3rem);
-      line-height: 1.05;
-      letter-spacing: 0;
-    }
-
-    .subtitle {
-      margin: 8px 0 0;
-      font-size: 0.92rem;
-      color: var(--accent-dark);
-      font-weight: 600;
-    }
-
-    .intro {
-      margin: 32px 0 0;
-      font-size: 1rem;
-      color: var(--muted);
-    }
-
-    .section {
-      display: grid;
-      gap: 18px;
-    }
-
-    h2 {
-      margin: 0;
-      font-size: 1.1rem;
-      line-height: 1.25;
-    }
-
-    .feature-list {
-      display: grid;
-      gap: 0;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .feature-list li {
-      padding: 14px 0;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-    }
-
-    .feature-list li:last-child {
-      border-bottom: 1px solid var(--border);
-    }
-
-    .feature-list strong {
-      display: block;
-      margin-bottom: 4px;
-      color: var(--text);
-      font-size: 1rem;
-    }
-
-    .plain-text {
-      margin: 0;
-      color: var(--muted);
-    }
-
-    .footer-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px 20px;
-      padding-top: 20px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    @media (max-width: 640px) {
-      .page {
-        padding: 22px 18px 44px;
-      }
-
-      header {
-        align-items: flex-start;
-        padding-bottom: 36px;
-      }
-
-      nav {
-        gap: 14px;
-      }
-
-      main {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="0; url=https://maplesmith.dev/perch-home/" />
+    <link rel="canonical" href="https://maplesmith.dev/perch-home/" />
+    <title>Perch Home has moved - Perch Home</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         padding: 24px;
+        background: #f6f3ec;
+        color: #1f302b;
+        font-family: Georgia, "Times New Roman", serif;
+        text-align: center;
       }
-    }
-  </style>
-</head>
-<body>
-  <div class="page">
-    <header>
-      <a class="brand" href="/" aria-label="Perch Home home">
-        <img src="assets/icon.png" alt="" />
-        <span>Perch Home</span>
-      </a>
-      <nav aria-label="Site navigation">
-        <a href="/" aria-current="page">Home</a>
-        <a href="/privacy/">Privacy</a>
-        <a href="/terms/">Terms</a>
-        <a href="/support/">Support</a>
-      </nav>
-    </header>
-
+      h1 {
+        margin: 0 0 14px;
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+      }
+      p {
+        margin: 0 0 16px;
+        color: #566760;
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+      a {
+        color: #bb4d32;
+        overflow-wrap: anywhere;
+      }
+    </style>
+  </head>
+  <body>
     <main>
-      <section class="hero">
-        <h1>Perch Home</h1>
-        <p class="subtitle">Home dashboard for iPad</p>
-        <p class="intro">Perch Home turns an iPad into an always-on household display for weather, calendars, photos, Apple Home devices, cameras, and guest Wi-Fi.</p>
-      </section>
-
-      <section class="section" aria-labelledby="features-heading">
-        <h2 id="features-heading">What it does</h2>
-        <ul class="feature-list">
-          <li><strong>Weather and time</strong>Current conditions, forecast details, and a readable household clock.</li>
-          <li><strong>Calendar events</strong>Apple Calendar and Google Calendar events shown at a glance.</li>
-          <li><strong>Photo slideshows</strong>Personal photo library slideshows that stay on the device.</li>
-          <li><strong>Apple Home</strong>HomeKit device status and Apple Home camera views for supported homes.</li>
-          <li><strong>Guest Wi-Fi</strong>Visitor-friendly network details displayed where your household needs them.</li>
-          <li><strong>Simple setup</strong>Template-based onboarding for a focused always-on display.</li>
-        </ul>
-      </section>
-
-      <section class="section" aria-labelledby="privacy-heading">
-        <h2 id="privacy-heading">Privacy</h2>
-        <p class="plain-text">Perch Home is designed for personal household use. Most data stays on your device. Calendar, weather, analytics, and crash-reporting services are used only where needed to provide app features and improve reliability.</p>
-        <p class="plain-text"><a href="/privacy/">Read the privacy policy</a></p>
-      </section>
+      <h1>This page has moved</h1>
+      <p>The Perch Home app page now lives on maplesmith.dev.</p>
+      <p><a href="https://maplesmith.dev/perch-home/">https://maplesmith.dev/perch-home/</a></p>
     </main>
-
-    <footer class="footer-links">
-      <span>Questions or support: <a href="mailto:support@perchhome.app">support@perchhome.app</a></span>
-      <a href="/privacy/">Privacy Policy</a>
-      <a href="/terms/">Terms of Service</a>
-    </footer>
-  </div>
-</body>
+    <script>
+      window.location.replace('https://maplesmith.dev/perch-home/');
+    </script>
+  </body>
 </html>
