@@ -1,201 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Perch Home - Support</title>
-  <link rel="icon" href="../assets/icon.png" />
-  <link rel="apple-touch-icon" href="../assets/icon.png" />
-  <style>
-    :root {
-      color-scheme: light;
-      --background: #f8faf8;
-      --surface: #ffffff;
-      --text: #17211d;
-      --muted: #5c6962;
-      --border: #d9e2dd;
-      --accent: #28705b;
-      --accent-dark: #1f5747;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      color: var(--text);
-      background: var(--background);
-      line-height: 1.7;
-    }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: var(--accent-dark);
-      text-decoration: underline;
-    }
-
-    .page {
-      width: min(760px, 100%);
-      margin: 0 auto;
-      padding: 28px 24px 56px;
-    }
-
-    header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-      padding: 4px 0 52px;
-    }
-
-    .brand {
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      font-weight: 700;
-      color: var(--text);
-    }
-
-    .brand img {
-      width: 40px;
-      height: 40px;
-      border-radius: 8px;
-    }
-
-    nav {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      font-size: 0.95rem;
-    }
-
-    nav a {
-      display: inline-flex;
-      align-items: center;
-      min-height: 28px;
-      border-bottom: 2px solid transparent;
-    }
-
-    nav a[aria-current="page"] {
-      color: var(--text);
-      border-bottom-color: var(--accent);
-    }
-
-    main {
-      padding: 34px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: var(--surface);
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(2rem, 6vw, 3rem);
-      line-height: 1.05;
-      letter-spacing: 0;
-    }
-
-    h2 {
-      margin: 32px 0 8px;
-      font-size: 1.1rem;
-      line-height: 1.25;
-    }
-
-    p {
-      margin: 0 0 16px;
-      color: var(--muted);
-    }
-
-    .contact-block {
-      margin: 24px 0 0;
-      padding: 20px 24px;
-      background: var(--background);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      color: var(--muted);
-    }
-
-    .contact-block a {
-      font-weight: 600;
-    }
-
-    .footer-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px 20px;
-      padding-top: 20px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    @media (max-width: 640px) {
-      .page {
-        padding: 22px 18px 44px;
-      }
-
-      header {
-        align-items: flex-start;
-        padding-bottom: 36px;
-      }
-
-      nav {
-        gap: 14px;
-      }
-
-      main {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="0; url=https://maplesmith.dev/perch-home/support/" />
+    <link rel="canonical" href="https://maplesmith.dev/perch-home/support/" />
+    <title>Support has moved - Perch Home</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         padding: 24px;
+        background: #f6f3ec;
+        color: #1f302b;
+        font-family: Georgia, "Times New Roman", serif;
+        text-align: center;
       }
-    }
-  </style>
-</head>
-<body>
-  <div class="page">
-    <header>
-      <a class="brand" href="/" aria-label="Perch Home home">
-        <img src="../assets/icon.png" alt="" />
-        <span>Perch Home</span>
-      </a>
-      <nav aria-label="Site navigation">
-        <a href="/">Home</a>
-        <a href="/privacy/">Privacy</a>
-        <a href="/terms/">Terms</a>
-        <a href="/support/" aria-current="page">Support</a>
-      </nav>
-    </header>
-
+      h1 {
+        margin: 0 0 14px;
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+      }
+      p {
+        margin: 0 0 16px;
+        color: #566760;
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+      a {
+        color: #bb4d32;
+        overflow-wrap: anywhere;
+      }
+    </style>
+  </head>
+  <body>
     <main>
-      <h1>Support</h1>
-
-      <h2>My calendar events are not showing up</h2>
-      <p>For Apple Calendar, make sure Perch Home has permission: go to iOS Settings &gt; Privacy &amp; Security &gt; Calendars and confirm Perch Home is enabled. Then open Perch Home settings and check that the correct calendars are selected.</p>
-      <p>For Google Calendar, open Perch Home settings, go to the Calendar widget, and reconnect your Google account. If you recently changed your Google password, you may need to sign out and sign back in.</p>
-
-      <h2>The weather is showing the wrong location</h2>
-      <p>Open Perch Home settings and select the Weather widget. You can update your city there. The location is set during onboarding and can be changed at any time.</p>
-
-      <h2>How do I disconnect Google Calendar?</h2>
-      <p>Open Perch Home settings, go to the Calendar widget, and tap Disconnect Google Account. Your Google credentials are removed from the device immediately.</p>
-
-      <h2>How do I start setup over?</h2>
-      <p>Open Perch Home settings and scroll to the bottom. Tap Reset to clear your configuration and return to the onboarding flow.</p>
-
-      <h2>Something else?</h2>
-      <div class="contact-block">
-        Email <a href="mailto:support@perchhome.app">support@perchhome.app</a> and we will get back to you.
-      </div>
+      <h1>This page has moved</h1>
+      <p>The Perch Home support page now lives on maplesmith.dev.</p>
+      <p><a href="https://maplesmith.dev/perch-home/support/">https://maplesmith.dev/perch-home/support/</a></p>
     </main>
-
-    <footer class="footer-links">
-      <span>Questions or support: <a href="mailto:support@perchhome.app">support@perchhome.app</a></span>
-      <a href="/privacy/">Privacy Policy</a>
-      <a href="/terms/">Terms of Service</a>
-    </footer>
-  </div>
-</body>
+    <script>
+      window.location.replace('https://maplesmith.dev/perch-home/support/');
+    </script>
+  </body>
 </html>
